@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "bolajonApp",
-    "slug": "bolajonApp",
+    "slug": "bolajon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -11,6 +11,7 @@
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
@@ -33,10 +34,42 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf"],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Montserrat",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf",
+                    "weight": 900
+                  }
+                ]
+              }
+            ]
+          },
+          "ios": {
+            "fonts": [
+              "./assets/fonts/Nunito-Bold.ttf",
+              "./assets/fonts/Nunito-BoldItalic.ttf"
+            ]
+          }
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c7f2d4a5-2fff-42c4-a5d2-e0f442e355b4"
+      }
+    },
+    "owner": "behzodbek1230"
   }
 }
