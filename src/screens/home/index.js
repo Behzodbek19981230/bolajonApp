@@ -1,10 +1,11 @@
-import { Button, Text, View } from "react-native";
-import { fonts } from "../../configs/fonts";
-import LogoText from "../../components/LogoText";
+import { View } from "react-native";
 import BlockButton from "../../components/BlockButton";
+import LogoText from "../../components/LogoText";
 
+import { useNavigation } from "@react-navigation/native";
 import { images } from "../../configs/images";
 export default function HomeScreen() {
+  const navigatore = useNavigation();
   return (
     <View
       style={{
@@ -39,7 +40,7 @@ export default function HomeScreen() {
           bgColor={"#90d5ac"}
           image={images.videoCam}
           onPress={() => {
-            console.log("Audio button pressed");
+            navigatore.navigate("CartoonScreen");
           }}
         />
         <BlockButton

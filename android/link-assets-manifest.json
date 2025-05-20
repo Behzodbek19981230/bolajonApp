@@ -184,6 +184,10 @@
     {
       "path": "assets/fonts/Quicksand/static/Quicksand-SemiBold.ttf",
       "sha1": "339f8d3e09ad271ff12727eef33a99f7a066eee3"
+    },
+    {
+      "path": "assets/fonts/SpaceMono-Regular.ttf",
+      "sha1": "fae3a5a43b50e0408fd61e14383d94a023d332b0"
     }
   ]
 }

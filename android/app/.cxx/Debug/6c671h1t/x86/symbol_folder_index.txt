@@ -1,1 +1,0 @@
-/home/behzod/Programs/bolajonApp/android/app/build/intermediates/cxx/Debug/6c671h1t/obj/x86

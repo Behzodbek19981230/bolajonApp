@@ -1,0 +1,1 @@
+/home/behzod/Programs/M-App/android/app/build/intermediates/cxx/Debug/56j3f4m4/obj/x86
