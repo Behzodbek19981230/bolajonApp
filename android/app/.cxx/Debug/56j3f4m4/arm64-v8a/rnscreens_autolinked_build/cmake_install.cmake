@@ -1,4 +1,4 @@
-# Install script for directory: /home/behzod/Programs/BolajonTV/node_modules/react-native-screens/android/src/main/jni
+# Install script for directory: /home/behzod/Programs/M-App/node_modules/react-native-screens/android/src/main/jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Animated, Dimensions, StyleSheet, View } from "react-native";
+import Layout from "../../components/Layout";
 import { fonts } from "../../configs/fonts";
 
 const { width, height } = Dimensions.get("window");
@@ -24,11 +25,13 @@ export default function SplashScreen({ navigation }) {
   }, []);
 
   return (
-    <View style={styles.background}>
-      <Animated.Text style={[styles.text, { opacity: fadeAnim }]}>
-        Bolajon TV
-      </Animated.Text>
-    </View>
+    <Layout>
+      <View style={styles.background}>
+        <Animated.Text style={[styles.text, { opacity: fadeAnim }]}>
+          Bolajon TV
+        </Animated.Text>
+      </View>
+    </Layout>
   );
 }
 
